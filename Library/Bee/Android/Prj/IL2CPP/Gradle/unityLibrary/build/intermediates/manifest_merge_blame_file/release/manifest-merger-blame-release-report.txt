@@ -1,0 +1,168 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player"
+5    android:versionCode="1"
+6    android:versionName="0.1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="26"
+9-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml
+11
+12    <uses-feature android:glEsVersion="0x00030000" />
+12-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:3-52
+12-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:17-49
+13
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:3-65
+14-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:20-62
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:3-63
+15-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:20-60
+16
+17    <uses-feature
+17-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:3-83
+18        android:name="android.hardware.camera"
+18-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:17-55
+19        android:required="false" />
+19-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:56-80
+20    <uses-feature
+20-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:3-93
+21        android:name="android.hardware.camera.autofocus"
+21-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:17-65
+22        android:required="false" />
+22-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:66-90
+23    <uses-feature
+23-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:3-89
+24        android:name="android.hardware.camera.front"
+24-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:17-61
+25        android:required="false" />
+25-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:62-86
+26    <uses-feature
+26-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:3-88
+27        android:name="android.hardware.touchscreen"
+27-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:17-60
+28        android:required="false" />
+28-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:61-85
+29    <uses-feature
+29-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:3-99
+30        android:name="android.hardware.touchscreen.multitouch"
+30-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:17-71
+31        android:required="false" />
+31-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:72-96
+32    <uses-feature
+32-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:3-108
+33        android:name="android.hardware.touchscreen.multitouch.distinct"
+33-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:17-80
+34        android:required="false" />
+34-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:81-105
+35    <uses-feature
+35-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:3-85
+36        android:name="android.hardware.camera.ar"
+36-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:17-58
+37        android:required="true" />
+37-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:59-82
+38    <uses-feature
+38-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:3-83
+39        android:name="com.google.ar.core.depth"
+39-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:17-56
+40        android:required="true" />
+40-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:57-80
+41
+42    <application android:extractNativeLibs="true" >
+42-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-20:17
+42-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:16-48
+43        <activity
+43-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:5-11:16
+44            android:name="com.unity3d.player.UnityPlayerActivity"
+44-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:15-68
+45            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+45-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:180-361
+46            android:hardwareAccelerated="false"
+46-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:397-432
+47            android:launchMode="singleTask"
+47-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:148-179
+48            android:resizeableActivity="false"
+48-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:362-396
+49            android:screenOrientation="fullUser"
+49-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:111-147
+50            android:theme="@style/UnityThemeSelector" >
+50-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:69-110
+51            <intent-filter>
+51-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:7-8:23
+52                <action android:name="android.intent.action.MAIN" />
+52-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:9-61
+52-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:17-58
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:9-69
+54-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:19-66
+55            </intent-filter>
+56
+57            <meta-data
+57-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:7-82
+58                android:name="unityplayer.UnityActivity"
+58-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:18-58
+59                android:value="true" />
+59-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:59-79
+60            <meta-data
+60-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:7-78
+61                android:name="android.notch_support"
+61-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:18-54
+62                android:value="true" />
+62-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:55-75
+63        </activity>
+64
+65        <meta-data
+65-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:5-69
+66            android:name="unity.splash-mode"
+66-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:16-48
+67            android:value="0" />
+67-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:49-66
+68        <meta-data
+68-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:5-74
+69            android:name="unity.splash-enable"
+69-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:16-50
+70            android:value="True" />
+70-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:51-71
+71        <meta-data
+71-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:5-78
+72            android:name="unity.launch-fullscreen"
+72-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:16-54
+73            android:value="True" />
+73-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:55-75
+74        <meta-data
+74-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-84
+75            android:name="unity.allow-resizable-window"
+75-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:16-59
+76            android:value="False" />
+76-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:60-81
+77        <meta-data
+77-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:5-81
+78            android:name="notch.config"
+78-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:16-43
+79            android:value="portrait|landscape" />
+79-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:44-78
+80        <meta-data
+80-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:5-84
+81            android:name="unity.auto-report-fully-drawn"
+81-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:16-60
+82            android:value="true" />
+82-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:61-81
+83        <meta-data
+83-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:5-88
+84            android:name="unityplayer.SkipPermissionsDialog"
+84-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:16-64
+85            android:value="true" />
+85-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:65-85
+86        <meta-data
+86-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:5-77
+87            android:name="com.google.ar.core"
+87-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:16-49
+88            android:value="required" />
+88-->C:\Data Binus\AR\Project UTS\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:50-74
+89    </application>
+90
+91</manifest>
